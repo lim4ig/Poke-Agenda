@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\igorr\\Downloads\\Pokemom-Agenda-main\\Pokemom-Agenda-main\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F1BD25CE-1478-408B-A97A-79051DE33382}|Pokemom Agenda\\Pokemom Agenda.csproj|C:\\Users\\igorr\\Downloads\\Pokemom-Agenda-main\\Pokemom-Agenda-main\\pokemom agenda\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1BD25CE-1478-408B-A97A-79051DE33382}|Pokemom Agenda\\Pokemom Agenda.csproj|solutionrelative:pokemom agenda\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1BD25CE-1478-408B-A97A-79051DE33382}|Pokemom Agenda\\Pokemom Agenda.csproj|C:\\Users\\igorr\\Downloads\\Pokemom-Agenda-main\\Pokemom-Agenda-main\\pokemom agenda\\pokemon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1BD25CE-1478-408B-A97A-79051DE33382}|Pokemom Agenda\\Pokemom Agenda.csproj|solutionrelative:pokemom agenda\\pokemon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 100,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Pokemon.cs",
+              "DocumentMoniker": "C:\\Users\\igorr\\Downloads\\Pokemom-Agenda-main\\Pokemom-Agenda-main\\Pokemom Agenda\\Pokemon.cs",
+              "RelativeDocumentMoniker": "Pokemom Agenda\\Pokemon.cs",
+              "ToolTip": "C:\\Users\\igorr\\Downloads\\Pokemom-Agenda-main\\Pokemom-Agenda-main\\Pokemom Agenda\\Pokemon.cs",
+              "RelativeToolTip": "Pokemom Agenda\\Pokemon.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACcAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T23:30:09.792Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\igorr\\Downloads\\Pokemom-Agenda-main\\Pokemom-Agenda-main\\Pokemom Agenda\\Form1.cs",
+              "RelativeDocumentMoniker": "Pokemom Agenda\\Form1.cs",
+              "ToolTip": "C:\\Users\\igorr\\Downloads\\Pokemom-Agenda-main\\Pokemom-Agenda-main\\Pokemom Agenda\\Form1.cs",
+              "RelativeToolTip": "Pokemom Agenda\\Form1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-18T23:05:09.681Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
