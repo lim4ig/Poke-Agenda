@@ -39,11 +39,11 @@ namespace pokemon_agenda
         /// <param name="nivelPokemon">Define o nível atual do Pokémon.</param>
         public Pokemon(string nomePokemon, string tipoPokemon, int nivelPokemon)
         {
-            Nome = nomePokemon;
-            Tipo = tipoPokemon;
-            Nivel = nivelPokemon;
-            Vida = 100 + (nivelPokemon * 2);
-            Dano = 20 + nivelPokemon;
+            NomePkmn = nomePokemon;
+            TipoPkmn = tipoPokemon;
+            NivelPkmn = nivelPokemon;
+            VidaPkmn = 100 + (nivelPokemon * 2);
+            DanoPkmn = 20 + nivelPokemon;
         }
 
         /// <summary>
@@ -59,7 +59,8 @@ namespace pokemon_agenda
         /// <returns>Essa função não retorna nada.</returns>
         public void fnDescricao()
         {
-            MessageBox.Show($"Pokémon: {Nome}\nTipo: {Tipo}\nNível: {Nivel}\nVida: {Vida}\nAtaque: {Dano}", "Informações");
+            MessageBox.Show($"Pokémon: {NomePkmn}\nTipo: {TipoPkmn}\nNível: {NivelPkmn}\nVida: {VidaPkmn}\n" +
+                $"Ataque: {DanoPkmn}", "Informações");
         }
     }
 }

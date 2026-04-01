@@ -9,18 +9,14 @@ namespace pokemon_agenda
 {
     internal class Pokemon
     {
-        // nome do pokemon
-        // tipo do pokemon
-        // nivel do pokemon
-        // vida do pokemon
-        // dano do pokemon
+        string NomePkmn;
+        string TipoPkmn;
+        int NivelPkmn;
+        int VidaPkmn;
+        int DanoPkmn;
 
-        // get set
-        public string Nome { get; set; }
-        public string Tipo { get; set; }
-        public int Nivel { get; set; }
-        public int Vida { get; set; }
-        public int Dano { get; set; }
+        // Criação da função de inicialização padrão do meu objeto.
+
 
         /// <summary>
         /// Inicializa o construtor da minha classe padrão de <c>Pokémon</c>.
@@ -39,11 +35,11 @@ namespace pokemon_agenda
         /// <param name="nivelPokemon">Define o nível atual do Pokémon.</param>
         public Pokemon(string nomePokemon, string tipoPokemon, int nivelPokemon)
         {
-            Nome = nomePokemon;
-            Tipo = tipoPokemon;
-            Nivel = nivelPokemon;
-            Vida = 100 + (nivelPokemon * 2);
-            Dano = 20 + nivelPokemon;
+            NomePkmn = nomePokemon;
+            TipoPkmn = tipoPokemon;
+            NivelPkmn = nivelPokemon;
+            VidaPkmn = 100 + (nivelPokemon * 2);
+            DanoPkmn = 20 + nivelPokemon;
         }
 
         /// <summary>
@@ -59,7 +55,8 @@ namespace pokemon_agenda
         /// <returns>Essa função não retorna nada.</returns>
         public void fnDescricao()
         {
-            MessageBox.Show($"Pokémon: {Nome}\nTipo: {Tipo}\nNível: {Nivel}\nVida: {Vida}\nAtaque: {Dano}", "Informações");
+            MessageBox.Show($"Pokémon: {NomePkmn}\nTipo: {TipoPkmn}\nNível: {NivelPkmn}\nVida: {VidaPkmn}\n" +
+                $"Ataque: {DanoPkmn}", "Informações");
         }
     }
 }

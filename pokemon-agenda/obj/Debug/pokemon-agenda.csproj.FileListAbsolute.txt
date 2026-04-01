@@ -38,3 +38,6 @@ C:\Users\igorr\Documents\GitHub\Agenda-Pokemon\pokemon-agenda\obj\Debug\pokemon-
 C:\Users\igorr\Documents\GitHub\Agenda-Pokemon\pokemon-agenda\obj\Debug\pokemon-agenda.csproj.CoreCompileInputs.cache
 C:\Users\igorr\Documents\GitHub\Agenda-Pokemon\pokemon-agenda\obj\Debug\pokemon-agenda.exe
 C:\Users\igorr\Documents\GitHub\Agenda-Pokemon\pokemon-agenda\obj\Debug\pokemon-agenda.pdb
+C:\Users\igor.lmatheus\Downloads\Poke-Agenda-main\Poke-Agenda-main\pokemon-agenda\obj\Debug\pokemon-agenda.csproj.AssemblyReference.cache
+C:\Users\igor.lmatheus\Downloads\Poke-Agenda-main\Poke-Agenda-main\pokemon-agenda\obj\Debug\pokemon-agenda.exe
+C:\Users\igor.lmatheus\Downloads\Poke-Agenda-main\Poke-Agenda-main\pokemon-agenda\obj\Debug\pokemon-agenda.pdb

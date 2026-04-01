@@ -12,26 +12,9 @@ namespace pokemon_agenda
 {
     public partial class fmCadastroPokemon : Form
     {
-        // Lista feita para utilizar com o DGV
-        BindingList<Pokemon> listaPokemon = new BindingList<Pokemon>();
-
         public fmCadastroPokemon()
         {
             InitializeComponent();
-            // DataGridView Visualizador organizado de dados
-
-            Pokemon p1 = new Pokemon("Pikachu", "Elétrico", 5);
-            Pokemon p2 = new Pokemon("Charmander", "Fogo", 9);
-            Pokemon p3 = new Pokemon("Bulbasaur", "Grama", 15);
-            Pokemon p4 = new Pokemon("Squirtle", "Água", 29);
-
-            listaPokemon.Add(p1);
-            listaPokemon.Add(p2);
-            listaPokemon.Add(p3);
-            listaPokemon.Add(p4);
-
-            // Link the BindingList to the DataGridView (dgvListaPokemon should exist in the designer)
-            dgvListaPokemon.DataSource = listaPokemon;
         }
 
         private void fnLimparFormularios()
@@ -50,14 +33,12 @@ namespace pokemon_agenda
             int nivelPokemon = (int)numNivel.Value;
 
             Pokemon infoPokemon = new Pokemon(nomePokemon, tipoPokemon, nivelPokemon);
-            if (nomePokemon != string.Empty && tipoPokemon != string.Empty)
+            if(nomePokemon != string.Empty && tipoPokemon != string.Empty)
             {
                 MessageBox.Show($"O Pokémon {nomePokemon} do tipo {tipoPokemon} foi cadastrado com o nível {nivelPokemon}.",
                 "Mensagem de Aviso");
 
                 infoPokemon.fnDescricao();
-                // Adiciona o Pokémon cadastrado à lista ligada ao DGV
-                listaPokemon.Add(infoPokemon);
 
                 fnLimparFormularios();
             }
@@ -79,12 +60,7 @@ namespace pokemon_agenda
 
         private void fmCadastroPokemon_Load(object sender, EventArgs e)
         {
-
-        }
-
-        private void dgvListaPokemon_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
+            78
         }
     }
 }
