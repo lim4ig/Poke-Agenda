@@ -7,7 +7,7 @@ using System.Windows.Forms;
 
 namespace pokemon_agenda
 {
-    internal class Pokemon
+    public class Pokemon
     {
         // nome do pokemon
         // tipo do pokemon
@@ -15,12 +15,16 @@ namespace pokemon_agenda
         // vida do pokemon
         // dano do pokemon
 
-        // get set
+        //get set
         public string Nome { get; set; }
         public string Tipo { get; set; }
         public int Nivel { get; set; }
-        public int Vida { get; set; }
+        public int Vida { get; set; }  
         public int Dano { get; set; }
+
+
+        // Criação da função de inicialização padrão do meu objeto.
+
 
         /// <summary>
         /// Inicializa o construtor da minha classe padrão de <c>Pokémon</c>.
@@ -59,7 +63,8 @@ namespace pokemon_agenda
         /// <returns>Essa função não retorna nada.</returns>
         public void fnDescricao()
         {
-            MessageBox.Show($"Pokémon: {Nome}\nTipo: {Tipo}\nNível: {Nivel}\nVida: {Vida}\nAtaque: {Dano}", "Informações");
+            MessageBox.Show($"Pokémon: {Nome}\nTipo: {Tipo}\nNível: {Nivel}\nVida: {Vida}\n" +
+                $"Ataque: {Dano}", "Informações");
         }
     }
 }

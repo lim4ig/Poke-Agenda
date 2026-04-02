@@ -1,18 +1,24 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\igor.lmatheus\\Downloads\\Poke-Agenda-main\\Poke-Agenda-main\\",
+  "WorkspaceRootPath": "C:\\Users\\igor.lmatheus\\source\\repos\\Poke-Agenda\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7EE1B2B7-66DC-4B25-9669-F2497292679D}|pokemon-agenda\\pokemon-agenda.csproj|c:\\users\\igor.lmatheus\\downloads\\poke-agenda-main\\poke-agenda-main\\pokemon-agenda\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7EE1B2B7-66DC-4B25-9669-F2497292679D}|pokemon-agenda\\pokemon-agenda.csproj|solutionrelative:pokemon-agenda\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|pokemon-agenda||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7EE1B2B7-66DC-4B25-9669-F2497292679D}|pokemon-agenda\\pokemon-agenda.csproj|c:\\users\\igor.lmatheus\\downloads\\poke-agenda-main\\poke-agenda-main\\pokemon-agenda\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{7EE1B2B7-66DC-4B25-9669-F2497292679D}|pokemon-agenda\\pokemon-agenda.csproj|C:\\Users\\igor.lmatheus\\source\\repos\\Poke-Agenda\\pokemon-agenda\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{7EE1B2B7-66DC-4B25-9669-F2497292679D}|pokemon-agenda\\pokemon-agenda.csproj|solutionrelative:pokemon-agenda\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7EE1B2B7-66DC-4B25-9669-F2497292679D}|pokemon-agenda\\pokemon-agenda.csproj|C:\\Users\\igor.lmatheus\\Downloads\\Poke-Agenda-main\\Poke-Agenda-main\\pokemon-agenda\\pokemon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7EE1B2B7-66DC-4B25-9669-F2497292679D}|pokemon-agenda\\pokemon-agenda.csproj|C:\\Users\\igor.lmatheus\\source\\repos\\Poke-Agenda\\pokemon-agenda\\pokemon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7EE1B2B7-66DC-4B25-9669-F2497292679D}|pokemon-agenda\\pokemon-agenda.csproj|solutionrelative:pokemon-agenda\\pokemon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EE1B2B7-66DC-4B25-9669-F2497292679D}|pokemon-agenda\\pokemon-agenda.csproj|C:\\Users\\igor.lmatheus\\source\\repos\\Poke-Agenda\\pokemon-agenda\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EE1B2B7-66DC-4B25-9669-F2497292679D}|pokemon-agenda\\pokemon-agenda.csproj|solutionrelative:pokemon-agenda\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EE1B2B7-66DC-4B25-9669-F2497292679D}|pokemon-agenda\\pokemon-agenda.csproj|c:\\users\\igor.lmatheus\\source\\repos\\poke-agenda\\pokemon-agenda\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|f8d6553f-f752-4dbf-acb6-f291b744a792"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,42 +28,54 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Pokemon.cs",
-              "DocumentMoniker": "C:\\Users\\igor.lmatheus\\Downloads\\Poke-Agenda-main\\Poke-Agenda-main\\pokemon-agenda\\Pokemon.cs",
-              "RelativeDocumentMoniker": "pokemon-agenda\\Pokemon.cs",
-              "ToolTip": "C:\\Users\\igor.lmatheus\\Downloads\\Poke-Agenda-main\\Poke-Agenda-main\\pokemon-agenda\\Pokemon.cs",
-              "RelativeToolTip": "pokemon-agenda\\Pokemon.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAkAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-19T23:30:05.763Z",
+              "DocumentIndex": 0,
+              "Title": "pokemon-agenda",
+              "DocumentMoniker": "C:\\Users\\igor.lmatheus\\source\\repos\\Poke-Agenda\\pokemon-agenda\\pokemon-agenda.csproj",
+              "RelativeDocumentMoniker": "pokemon-agenda\\pokemon-agenda.csproj",
+              "ToolTip": "C:\\Users\\igor.lmatheus\\source\\repos\\Poke-Agenda\\pokemon-agenda\\pokemon-agenda.csproj*",
+              "RelativeToolTip": "pokemon-agenda\\pokemon-agenda.csproj*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-04-02T00:34:09.09Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\igor.lmatheus\\Downloads\\Poke-Agenda-main\\Poke-Agenda-main\\pokemon-agenda\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\igor.lmatheus\\source\\repos\\Poke-Agenda\\pokemon-agenda\\Form1.cs",
               "RelativeDocumentMoniker": "pokemon-agenda\\Form1.cs",
-              "ToolTip": "C:\\Users\\igor.lmatheus\\Downloads\\Poke-Agenda-main\\Poke-Agenda-main\\pokemon-agenda\\Form1.cs [Design]",
+              "ToolTip": "C:\\Users\\igor.lmatheus\\source\\repos\\Poke-Agenda\\pokemon-agenda\\Form1.cs [Design]",
               "RelativeToolTip": "pokemon-agenda\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-01T22:18:33.466Z",
+              "WhenOpened": "2026-04-02T00:30:57.832Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": "Pokemon.cs",
+              "DocumentMoniker": "C:\\Users\\igor.lmatheus\\source\\repos\\Poke-Agenda\\pokemon-agenda\\Pokemon.cs",
+              "RelativeDocumentMoniker": "pokemon-agenda\\Pokemon.cs",
+              "ToolTip": "C:\\Users\\igor.lmatheus\\source\\repos\\Poke-Agenda\\pokemon-agenda\\Pokemon.cs",
+              "RelativeToolTip": "pokemon-agenda\\Pokemon.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAA6wBgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T23:30:05.763Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\igor.lmatheus\\Downloads\\Poke-Agenda-main\\Poke-Agenda-main\\pokemon-agenda\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\igor.lmatheus\\source\\repos\\Poke-Agenda\\pokemon-agenda\\Form1.cs",
               "RelativeDocumentMoniker": "pokemon-agenda\\Form1.cs",
-              "ToolTip": "C:\\Users\\igor.lmatheus\\Downloads\\Poke-Agenda-main\\Poke-Agenda-main\\pokemon-agenda\\Form1.cs",
+              "ToolTip": "C:\\Users\\igor.lmatheus\\source\\repos\\Poke-Agenda\\pokemon-agenda\\Form1.cs",
               "RelativeToolTip": "pokemon-agenda\\Form1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAA/AAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwAsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-19T22:14:03.56Z",
               "EditorCaption": ""

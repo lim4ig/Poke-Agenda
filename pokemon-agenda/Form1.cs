@@ -12,27 +12,26 @@ namespace pokemon_agenda
 {
     public partial class fmCadastroPokemon : Form
     {
-        // Lista feita para utilizar com o DGV
         BindingList<Pokemon> listaPokemon = new BindingList<Pokemon>();
-
         public fmCadastroPokemon()
         {
             InitializeComponent();
-            // DataGridView Visualizador organizado de dados
+            // DataGrindView é um componente que tem a função de mostrar uma tabela, onde cada linha é um item da minha
 
             Pokemon p1 = new Pokemon("Pikachu", "Elétrico", 5);
             Pokemon p2 = new Pokemon("Charmander", "Fogo", 9);
-            Pokemon p3 = new Pokemon("Bulbasaur", "Grama", 15);
-            Pokemon p4 = new Pokemon("Squirtle", "Água", 29);
+            Pokemon p3 = new Pokemon("Squirtle", "Água", 29);
+            Pokemon p4 = new Pokemon("Bulbasaur", "Grama", 15);
 
             listaPokemon.Add(p1);
             listaPokemon.Add(p2);
             listaPokemon.Add(p3);
             listaPokemon.Add(p4);
 
-            // Link the BindingList to the DataGridView (dgvListaPokemon should exist in the designer)
             dgvListaPokemon.DataSource = listaPokemon;
         }
+
+        // Disponivel para limpar os campos do formulário, para evitar a repetição de código.
 
         private void fnLimparFormularios()
         {
@@ -42,6 +41,13 @@ namespace pokemon_agenda
 
             txtNome.Focus();
         }
+        /* Objetivo da aula: aprender a criar e ultilizar objetos
+         * mini game pokemon
+         * 1- montar meu time com 6 pokemons
+         * 2- treinar esse meu time pokemon (recebe 2 nivel por treino)
+         * 3- batalhar com esse pokemon de forma aleatoria
+         * sistema vai sortear 1 a 6 pokemons (somente os 151 primeiros)
+         */
 
         private void btnSalvar_Click(object sender, EventArgs e)
         {
@@ -49,15 +55,16 @@ namespace pokemon_agenda
             string tipoPokemon = cbTipo.Text;
             int nivelPokemon = (int)numNivel.Value;
 
-            Pokemon infoPokemon = new Pokemon(nomePokemon, tipoPokemon, nivelPokemon);
-            if (nomePokemon != string.Empty && tipoPokemon != string.Empty)
+            Pokemon poke = new Pokemon(nomePokemon, tipoPokemon, nivelPokemon);
+
+            listaPokemon.Add(poke);
+
+            if(nomePokemon != string.Empty && tipoPokemon != string.Empty)
             {
                 MessageBox.Show($"O Pokémon {nomePokemon} do tipo {tipoPokemon} foi cadastrado com o nível {nivelPokemon}.",
                 "Mensagem de Aviso");
 
-                infoPokemon.fnDescricao();
-                // Adiciona o Pokémon cadastrado à lista ligada ao DGV
-                listaPokemon.Add(infoPokemon);
+                poke.fnDescricao();
 
                 fnLimparFormularios();
             }
@@ -73,11 +80,6 @@ namespace pokemon_agenda
         }
 
         private void btnAjuda_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void fmCadastroPokemon_Load(object sender, EventArgs e)
         {
 
         }
