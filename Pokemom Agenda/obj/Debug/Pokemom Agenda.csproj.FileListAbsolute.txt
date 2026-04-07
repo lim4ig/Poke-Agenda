@@ -19,3 +19,14 @@ C:\Users\henderson.sfroder\Documents\GitHub\Pokemom-Agenda\Pokemom Agenda\obj\De
 C:\Users\henderson.sfroder\Documents\GitHub\Pokemom-Agenda\Pokemom Agenda\obj\Debug\Pokemom Agenda.exe
 C:\Users\henderson.sfroder\Documents\GitHub\Pokemom-Agenda\Pokemom Agenda\obj\Debug\Pokemom Agenda.pdb
 C:\Users\henderson.sfroder\Documents\GitHub\Pokemom-Agenda\Pokemom Agenda\obj\Debug\Pokemom_Agenda.FormdetalhesPokemon.resources
+C:\Users\igor.lmatheus\source\repos\Poke-Agenda\Pokemom Agenda\bin\Debug\Pokemom Agenda.exe.config
+C:\Users\igor.lmatheus\source\repos\Poke-Agenda\Pokemom Agenda\bin\Debug\Pokemom Agenda.exe
+C:\Users\igor.lmatheus\source\repos\Poke-Agenda\Pokemom Agenda\bin\Debug\Pokemom Agenda.pdb
+C:\Users\igor.lmatheus\source\repos\Poke-Agenda\Pokemom Agenda\obj\Debug\Pokemom Agenda.csproj.AssemblyReference.cache
+C:\Users\igor.lmatheus\source\repos\Poke-Agenda\Pokemom Agenda\obj\Debug\Pokemom_Agenda.FmCadastroPokemon.resources
+C:\Users\igor.lmatheus\source\repos\Poke-Agenda\Pokemom Agenda\obj\Debug\Pokemom_Agenda.FormdetalhesPokemon.resources
+C:\Users\igor.lmatheus\source\repos\Poke-Agenda\Pokemom Agenda\obj\Debug\Pokemom_Agenda.Properties.Resources.resources
+C:\Users\igor.lmatheus\source\repos\Poke-Agenda\Pokemom Agenda\obj\Debug\Pokemom Agenda.csproj.GenerateResource.cache
+C:\Users\igor.lmatheus\source\repos\Poke-Agenda\Pokemom Agenda\obj\Debug\Pokemom Agenda.csproj.CoreCompileInputs.cache
+C:\Users\igor.lmatheus\source\repos\Poke-Agenda\Pokemom Agenda\obj\Debug\Pokemom Agenda.exe
+C:\Users\igor.lmatheus\source\repos\Poke-Agenda\Pokemom Agenda\obj\Debug\Pokemom Agenda.pdb
