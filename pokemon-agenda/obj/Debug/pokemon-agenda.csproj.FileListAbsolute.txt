@@ -1,1 +1,0 @@
-C:\Users\igor.lmatheus\source\repos\Poke-Agenda\pokemon-agenda\obj\Debug\pokemon-agenda.csproj.AssemblyReference.cache
