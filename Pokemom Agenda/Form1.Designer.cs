@@ -34,13 +34,14 @@
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.cbTipo = new System.Windows.Forms.ComboBox();
             this.numNivel = new System.Windows.Forms.NumericUpDown();
-            this.btnLimpar = new System.Windows.Forms.Button();
             this.btnSalvar = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.txtNome = new System.Windows.Forms.TextBox();
             this.dgvListaPokemon = new System.Windows.Forms.DataGridView();
+            this.btnLimpar = new System.Windows.Forms.Button();
+            this.btnVisualizar = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numNivel)).BeginInit();
@@ -143,16 +144,6 @@
             0,
             0});
             // 
-            // btnLimpar
-            // 
-            this.btnLimpar.Location = new System.Drawing.Point(149, 162);
-            this.btnLimpar.Name = "btnLimpar";
-            this.btnLimpar.Size = new System.Drawing.Size(145, 32);
-            this.btnLimpar.TabIndex = 7;
-            this.btnLimpar.Text = "Limpar";
-            this.btnLimpar.UseVisualStyleBackColor = true;
-            this.btnLimpar.Click += new System.EventHandler(this.btnLimpar_Click);
-            // 
             // btnSalvar
             // 
             this.btnSalvar.Location = new System.Drawing.Point(0, 162);
@@ -206,14 +197,35 @@
             this.dgvListaPokemon.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvListaPokemon.Location = new System.Drawing.Point(322, 108);
             this.dgvListaPokemon.Name = "dgvListaPokemon";
-            this.dgvListaPokemon.Size = new System.Drawing.Size(453, 265);
+            this.dgvListaPokemon.Size = new System.Drawing.Size(453, 191);
             this.dgvListaPokemon.TabIndex = 3;
+            // 
+            // btnLimpar
+            // 
+            this.btnLimpar.Location = new System.Drawing.Point(149, 162);
+            this.btnLimpar.Name = "btnLimpar";
+            this.btnLimpar.Size = new System.Drawing.Size(145, 32);
+            this.btnLimpar.TabIndex = 7;
+            this.btnLimpar.Text = "Limpar";
+            this.btnLimpar.UseVisualStyleBackColor = true;
+            this.btnLimpar.Click += new System.EventHandler(this.btnLimpar_Click);
+            // 
+            // btnVisualizar
+            // 
+            this.btnVisualizar.Location = new System.Drawing.Point(322, 305);
+            this.btnVisualizar.Name = "btnVisualizar";
+            this.btnVisualizar.Size = new System.Drawing.Size(145, 32);
+            this.btnVisualizar.TabIndex = 10;
+            this.btnVisualizar.Text = "Visualizar Detalhes";
+            this.btnVisualizar.UseVisualStyleBackColor = true;
+            this.btnVisualizar.Click += new System.EventHandler(this.btnVisualizar_Click);
             // 
             // FmCadastroPokemon
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnVisualizar);
             this.Controls.Add(this.dgvListaPokemon);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.label1);
@@ -237,7 +249,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.TextBox txtNome;
-        private System.Windows.Forms.Button btnLimpar;
         private System.Windows.Forms.Button btnSalvar;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
@@ -245,6 +256,8 @@
         private System.Windows.Forms.NumericUpDown numNivel;
         private System.Windows.Forms.ComboBox cbTipo;
         private System.Windows.Forms.DataGridView dgvListaPokemon;
+        private System.Windows.Forms.Button btnLimpar;
+        private System.Windows.Forms.Button btnVisualizar;
     }
 }
 

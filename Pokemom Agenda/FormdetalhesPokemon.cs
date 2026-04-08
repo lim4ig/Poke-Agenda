@@ -10,11 +10,17 @@ using System.Windows.Forms;
 
 namespace Pokemom_Agenda
 {
-    public partial class FormdetalhesPokemon : Form
+    public partial class FormDetalhesPokemon : Form
     {
-        public FormdetalhesPokemon()
+      public Pokemon pokemonRecebido { get; set; }
+        public FormDetalhesPokemon()
         {
             InitializeComponent();
+
+            lbNome.Text = pokemonRecebido.Nome;
+            lbTipo.Text = pokemonRecebido.Tipo;
+            lbNivel.Text = pokemonRecebido.Nivel.ToString();
         }
+
     }
 }
