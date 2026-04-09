@@ -17,10 +17,13 @@ namespace pokemon_agenda
         public FormDetalhesPkmn()
         {
             InitializeComponent();
+        }
 
-            lbNome.Text = pkmnRecebido.NomePkmn;
-            lbTipo.Text = pkmnRecebido.TipoPkmn;
-            lbNivel.Text = pkmnRecebido.NivelPkmn.ToString();
+        private void FormDetalhesPkmn_Load(object sender, EventArgs e)
+        {
+            lbNome.Text = "Nome: " + pkmnRecebido.NomePkmn;
+            lbTipo.Text = "Tipo: " + pkmnRecebido.TipoPkmn;
+            lbNivel.Text = "Nível: " + pkmnRecebido.NivelPkmn.ToString();
         }
     }
 }
