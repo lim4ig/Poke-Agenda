@@ -205,7 +205,7 @@
             // dgvListaPokemon
             // 
             this.dgvListaPokemon.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.dgvListaPokemon.BackgroundColor = System.Drawing.Color.SteelBlue;
+            this.dgvListaPokemon.BackgroundColor = System.Drawing.Color.Black;
             this.dgvListaPokemon.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvListaPokemon.Location = new System.Drawing.Point(369, 100);
             this.dgvListaPokemon.Name = "dgvListaPokemon";
